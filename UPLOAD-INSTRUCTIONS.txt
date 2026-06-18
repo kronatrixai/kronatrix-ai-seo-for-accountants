@@ -40,3 +40,9 @@ TTL: Default / 1 hour
 
 SITEMAP TO SUBMIT
 https://accountants.kronatrix.co.uk/sitemap.xml
+
+
+FORM FIX NOTE
+The site now has a proper Formspree form inside index.html.
+Do not send visitors directly to the Formspree URL.
+The form must submit using method="POST".

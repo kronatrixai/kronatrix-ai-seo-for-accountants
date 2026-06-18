@@ -288,6 +288,54 @@
     .tag-list { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: 1rem; }
     .tag-list span { padding: .55rem .8rem; border-radius: 999px; background: rgba(7, 25, 44, .72); border: 1px solid rgba(82,231,255,.12); color: var(--muted); font-weight: 600; }
     .notice { color: var(--warning); }
+
+    .lead-form-wrap {
+      margin-top: 1.2rem;
+      display: grid;
+      gap: .85rem;
+    }
+    .lead-form {
+      display: grid;
+      gap: .85rem;
+      margin-top: 1rem;
+    }
+    .lead-form label {
+      display: grid;
+      gap: .4rem;
+      color: #dcebf6;
+      font-weight: 700;
+      font-size: .95rem;
+    }
+    .lead-form input,
+    .lead-form textarea,
+    .lead-form select {
+      width: 100%;
+      border: 1px solid rgba(82,231,255,.22);
+      background: rgba(3, 12, 24, .76);
+      color: var(--text);
+      border-radius: 16px;
+      padding: .95rem 1rem;
+      font: inherit;
+      outline: none;
+    }
+    .lead-form input:focus,
+    .lead-form textarea:focus,
+    .lead-form select:focus {
+      border-color: rgba(82,231,255,.72);
+      box-shadow: 0 0 0 4px rgba(82,231,255,.10);
+    }
+    .lead-form textarea {
+      min-height: 118px;
+      resize: vertical;
+    }
+    .form-note {
+      font-size: .88rem;
+      color: var(--soft);
+      margin: 0;
+    }
+    .hidden-field {
+      display: none;
+    }
     @media (max-width: 1000px) {
       .hero-grid, .intro-grid, .two-up, .grid-3, .stats, .proof-grid, .check-grid, .footer-grid, .cta-band { grid-template-columns: 1fr; }
       h1 { max-width: 10ch; }
@@ -325,7 +373,7 @@
         <a href="#proof">Proof</a>
         <a href="#faq">FAQ</a>
       </nav>
-      <a class="btn btn-primary" href="https://formspree.io/f/mnjygarq" target="_blank" rel="noopener">Free AI Check</a>
+      <a class="btn btn-primary" href="#audit-form">Free AI Check</a>
     </div>
   </header>
 
@@ -337,7 +385,7 @@
           <h1>How do accountants get recommended by <span class="accent">AI chats</span></h1>
           <p class="lead">Quick answer: accountants improve their chance of being recommended by AI systems when their website makes the firm, services, sectors served, qualifications, locations, proof, onboarding process, and enquiry route extremely clear. KRONATRIX builds prompt-answer-first accountancy websites that are useful for humans and structured for machines.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="https://formspree.io/f/mnjygarq" target="_blank" rel="noopener">Get a Free AI Visibility Check</a>
+            <a class="btn btn-primary" href="#audit-form">Get a Free AI Visibility Check</a>
             <a class="btn btn-secondary" href="#checklist">See the Accountant Checklist</a>
           </div>
           <div class="hero-chips" aria-label="Key trust points">
@@ -489,12 +537,35 @@
             <li>Relevant supporting pages for niches like ecommerce, construction, or contractors.</li>
           </ul>
         </article>
-        <article class="card">
+        <article class="card" id="audit-form">
           <strong class="kicker">Service / audit offer</strong>
           <h2>Get a free AI visibility check for your accountancy website</h2>
           <p>KRONATRIX reviews how clearly your firm explains its services, who it helps, what proof it shows, how easy it is to crawl, and whether it looks recommendation-ready for AI systems.</p>
           <p class="small notice">No fake ranking promises. Practical clarity-first recommendations only.</p>
-          <p><a class="btn btn-primary" href="https://formspree.io/f/mnjygarq" target="_blank" rel="noopener">Start the free check</a></p>
+
+          <form class="lead-form" action="https://formspree.io/f/mnjygarq" method="POST">
+            <input class="hidden-field" type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+            <input type="hidden" name="_subject" value="KRONATRIX accountant AI visibility check request">
+            <input type="hidden" name="source_site" value="https://accountants.kronatrix.co.uk/">
+            <label>
+              Your name
+              <input type="text" name="name" autocomplete="name" required>
+            </label>
+            <label>
+              Email address
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+            <label>
+              Website URL
+              <input type="url" name="website" placeholder="https://youraccountancyfirm.co.uk">
+            </label>
+            <label>
+              What do you want checked?
+              <textarea name="message" placeholder="Example: check if our accountancy website is clear enough for Google and AI chats."></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send my free AI check request</button>
+            <p class="form-note">This form uses Formspree correctly with <code>method=&quot;POST&quot;</code>. You may need to confirm the Formspree form once from your email/account.</p>
+          </form>
         </article>
       </div>
     </section>
@@ -539,7 +610,7 @@
             <p class="muted">Get a practical KRONATRIX review focused on clarity, prompt matching, structure, proof, and conversion. No fake guarantees. No fake case studies.</p>
           </div>
           <div>
-            <a class="btn btn-primary" href="https://formspree.io/f/mnjygarq" target="_blank" rel="noopener">Get a Free AI Visibility Check</a>
+            <a class="btn btn-primary" href="#audit-form">Get a Free AI Visibility Check</a>
           </div>
         </div>
       </div>

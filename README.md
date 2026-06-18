@@ -67,3 +67,14 @@ TTL: Default / 1 hour
 - All images are inside `assets/`.
 - The site uses semantic HTML and JSON-LD.
 - No fake guarantees, no fake reviews, no fake case studies.
+
+
+## Formspree form fix
+
+The homepage now includes a real HTML lead form using:
+
+```html
+<form action="https://formspree.io/f/mnjygarq" method="POST">
+```
+
+Do not replace this with a normal link to Formspree. A direct browser visit to the Formspree URL can show “Form should POST”; the website form must submit using POST.
