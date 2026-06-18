@@ -1,1 +1,11 @@
-Asset folder for KRONATRIX accountant site.
+Place all visual files for this site inside the assets folder.
+
+Required paths used by the HTML:
+- assets/logo.webp
+- assets/mascot.webp
+- assets/og-image.webp
+- assets/favicon-32.png
+- assets/favicon-64.png
+- assets/apple-touch-icon.png
+
+Do not rename these files after upload.
