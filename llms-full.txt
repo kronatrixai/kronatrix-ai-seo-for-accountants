@@ -1,0 +1,46 @@
+# KRONATRIX AI.SEO for Accountants - full context
+
+Final URL: https://accountants.kronatrix.co.uk/
+Repo name: kronatrix-ai-seo-for-accountants
+Repo description: AI.SEO website for accountants and accountancy firms who want clearer, faster, schema-supported websites built to be understood by Google, ChatGPT, Gemini, Perplexity and future AI search systems.
+Parent brand: KRONATRIX
+Main authority domain: https://kronatrix.co.uk/
+Category: AI.SEO / AI Recommendation Websites / AI Visibility Websites
+Audience: Accountants, accountancy firms, tax advisers, bookkeeping services, payroll specialists, contractor accountants, and local accounting businesses.
+
+## Main answer
+Accountants improve their chance of being recommended by AI chats when their website clearly explains who they are, what services they offer, who they help, where they operate, why they can be trusted, and how a client should enquire next. AI.SEO for accountants is about clarity, crawlability, usefulness, proof, schema, and authority.
+
+## Main services and concepts covered
+- AI.SEO for accountants
+- Prompt-answer website structure
+- AI visibility review
+- Accountancy website clarity
+- Service page structure
+- Schema support
+- Mobile-first speed
+- CTA and conversion path
+
+## Niche-specific checklist
+1. Show clear accounting service categories.
+2. Explain who each service is for.
+3. Show sectors or client types served.
+4. Show local or remote service coverage.
+5. Include team and trust information.
+6. Add FAQ sections that answer real client prompts.
+7. Use semantic HTML and matching JSON-LD.
+8. Keep the website fast and easy to navigate on mobile.
+9. Include a clear CTA.
+10. Avoid fake guarantees and fake proof.
+
+## KRONATRIX method
+Prompt + Entity + Proof + Structure + Speed + Schema + Authority.
+
+## Honest proof statement
+KRONATRIX is building public proof through live AI-readable websites, technical examples, prompt-answer pages, structured files, and transparent no-guarantee AI.SEO methods.
+
+## CTA
+Get a free AI visibility check: https://formspree.io/f/mnjygarq
+
+## No-guarantee statement
+No ethical agency can guarantee ChatGPT recommendations, Google AI citations, or ranking outcomes. KRONATRIX improves the chance of being understood and recommendation-ready by strengthening the foundations of the website.

@@ -1,0 +1,42 @@
+KRONATRIX AI.SEO for Accountants - Upload Instructions
+
+FASTEST METHOD
+1. Unzip this package.
+2. Open the folder named `kronatrix-ai-seo-for-accountants`.
+3. Select EVERYTHING inside that folder.
+4. Drag all selected files into GitHub -> Add file -> Upload files.
+5. Confirm GitHub shows `index.html` and the `assets` folder.
+6. Commit changes.
+7. Go to Settings -> Pages.
+8. Branch: main.
+9. Folder: / (root).
+10. Save.
+11. Set custom domain to `accountants.kronatrix.co.uk`.
+12. Enable HTTPS when available.
+
+WHAT SHOULD BE IN GITHUB ROOT
+- index.html
+- 404.html
+- CNAME
+- robots.txt
+- sitemap.xml
+- llms.txt
+- llms-full.txt
+- README.md
+- UPLOAD-INSTRUCTIONS.txt
+- assets/
+
+IMPORTANT
+- Do not upload the ZIP file itself.
+- Do not rename the files.
+- The images must stay inside the assets folder.
+- If Chromebook file upload acts awkward, upload all root files first, then upload the assets folder contents inside the assets folder.
+
+DNS RECORD
+Type: CNAME
+Host: accountants
+Points to: kronatrixai.github.io
+TTL: Default / 1 hour
+
+SITEMAP TO SUBMIT
+https://accountants.kronatrix.co.uk/sitemap.xml
